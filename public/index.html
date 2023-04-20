@@ -9,5 +9,24 @@
 </head>
 <body>
 
+    <header class="min-h-nav flex flex-row justify-between items-center font-sans bg-fuchsia-950">
+        <div class="bg-red-500 w-1/2">
+            <h1 class="text-white text-3xl font-bold">Logo</h1>
+        </div>
+        <nav id="nav" class="text-white flex flex-col md:flex-row md:justify-end h-0 md:h-auto w-full md:w-2/5 pl-3 absolute top-full md:static overflow-hidden transition ease-in bg-red-500">
+            <a chref="#">Portfolio</a>
+            <a href="#">Services</a>
+            <a href="#">Benefits</a>
+            <a href="#">FAQs</a>
+            <a href="#">About Us</a>
+        </nav>
+        <div id="hamburger-btn" class="block md:hidden hover cursor-pointer">
+            <span class="block h-1 w-5 m-1 bg-white"></span>
+            <span class="block h-1 w-5 m-1 bg-white"></span>
+            <span class="block h-1 w-5 m-1 bg-white"></span>
+        </div>
+    </header>
+
+    <script src="main.js"></script>
 </body>
 </html>
