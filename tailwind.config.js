@@ -2,7 +2,17 @@
 module.exports = {
   content: ['./public/*.html'],
   theme: {
-    extend: {},
+    extend: {
+      minHeight: {
+        'nav': '10vh',
+      },
+      height: {
+        'auto': 'auto',
+      },
+      top: {
+        'top-100': '100%',
+      }
+    },
   },
   plugins: [],
 }
